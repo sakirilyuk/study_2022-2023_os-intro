@@ -81,50 +81,50 @@ header-includes:
 
 В первую очередь я установила git (рис. @fig:fig1) и gh (рис. @fig:fig2).
 
-![1](image/fig1.png){#fig:fig1 width=90%}
+![Установка git](image/fig1.png){#fig:fig1 width=90%}
 
-![2](image/fig2.png){#fig:fig2 width=90%}
+![Установка gh](image/fig2.png){#fig:fig2 width=90%}
 
 Затем я задала имя и email владельца репозитория (рис. @fig:fig3) и настроила utf-8 в выводе сообщений git
 (рис. @fig:fig4).
 
-![3](image/fig3.png){#fig:fig3 width=90%}
+![Имя и email](image/fig3.png){#fig:fig3 width=90%}
 
-![4](image/fig4.png){#fig:fig4 width=90%}
+![Настройка utf-8](image/fig4.png){#fig:fig4 width=90%}
 
 Я сгенерировала pgp ключ (рис. @fig:fig5), вывела список ключей и скопировала отпечаток приватного ключа (рис. @fig:fig6), чтобы скопировать сгенерированный PGP ключ в буфер обмена (рис. @fig:fig7). Затем я вставила полученный ключ в строку на GitHub (рис. @fig:fig8).
 
-![5](image/fig5.png){#fig:fig5 width=90%}
+![Генерация ключа pgp](image/fig5.png){#fig:fig5 width=90%}
 
-![6](image/fig6.png){#fig:fig6 width=90%}
+![Копия отпечатка ключа](image/fig6.png){#fig:fig6 width=90%}
 
-![7](image/fig7.png){#fig:fig7 width=90%}
+![Копирование ключа в буфере обмена](image/fig7.png){#fig:fig7 width=90%}
 
-![8](image/fig8.png){#fig:fig8 width=90%}
+![Загрузка ключа pgp на Github](image/fig8.png){#fig:fig8 width=90%}
 
 Также я настроила автоматические подписи коммитов (рис. @fig:fig9), задала параметры autocrlf и safecrlf и сгенерировала ключи по двум алгоритмам (рис. @fig:fig10), (рис. @fig:fig11).
 
-![9](image/fig9.png){#fig:fig9 width=90%}
+![Автоматические подписи коммитов](image/fig9.png){#fig:fig9 width=90%}
 
-![10](image/fig10.png){#fig:fig10 width=90%}
+![Использование алгоритма autocrlf](image/fig10.png){#fig:fig10 width=90%}
 
-![11](image/fig11.png){#fig:fig11 width=90%}
+![Использование алгоритма safecrlf](image/fig11.png){#fig:fig11 width=90%}
 
 Далее я авторизовалась (рис. @fig:fig12), (рис. @fig:fig13). Создала шаблон репозитория (рис. @fig:fig14), (рис. @fig:fig15).
 
-![12](image/fig12.png){#fig:fig12 width=90%}
+![Авторизация (1)](image/fig12.png){#fig:fig12 width=90%}
 
-![13](image/fig13.png){#fig:fig13 width=90%}
+![Авторизация (2)](image/fig13.png){#fig:fig13 width=90%}
 
-![14](image/fig14.png){#fig:fig14 width=90%}
+![Создание шаблона репозитория (1)](image/fig14.png){#fig:fig14 width=90%}
 
-![15](image/fig15.png){#fig:fig15 width=90%}
+![Создание шаблона репозитория (2)](image/fig15.png){#fig:fig15 width=90%}
 
 Перейдя в каталог курса я удалила лишние файлы и создала необходимые каталоги (рис. @fig:fig16), затем отправила файлы на сервер (рис. @fig:fig17).
 
-![16](image/fig16.png){#fig:fig16 width=90%}
+![Удаление файлов и создание каталогов](image/fig16.png){#fig:fig16 width=90%}
 
-![17](image/fig17.png){#fig:fig17 width=90%}
+![Отправка файлов на сервер](image/fig17.png){#fig:fig17 width=90%}
 
 Ответы на контрольные вопросы:
 1)Система контроля версий (VCS) — это место хранения кода. Она нужна для разработки продуктов (для хранение кода, синхронизации работы нескольких человек, создания релизов).
